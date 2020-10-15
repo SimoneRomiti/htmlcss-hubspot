@@ -180,6 +180,11 @@ main{
 .popular{
   float: left;
   width: 60%;
+  font-size: 0;
+}
+
+.popular h2{
+  font-size: 20px;
 }
 
 .popular p{
@@ -188,5 +193,25 @@ main{
 }
 
 .popular h3{
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  width: 45%
+}
+
+hr{
+  display: inline-block;
+  line-height: 16px;
+  width: 55%;
+}
+
+.popular ul > li{
+  font-size: 14px;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 20px 20px 0;
+}
+
+.popular ul > li > i{
+  color: orange;
 }
