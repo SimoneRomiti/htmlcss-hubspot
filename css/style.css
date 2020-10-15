@@ -8,10 +8,16 @@ header{
   color: #33475B;
 }
 
+/* header top */
 .header-top{
   border-bottom: 1px solid black;
   font-size: 0;
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
 }
+
 .container{
   padding: 20px 100px;
 }
@@ -57,9 +63,11 @@ aside.right{
   background-color: orange;
   color: white;
 }
+/* /header top */
 
+/* header bottom */
 .header-bottom{
-  padding: 20px 0 0 0;
+  padding: 15vh 0 0 0;
 }
 
 .navigator{
@@ -97,8 +105,6 @@ nav ul li{
   clear: both;
   padding: 60px 0 200px 100px;
   width: 40%;
-  position: relative;
-  z-index: 2;
 }
 
 .content::after{
@@ -118,6 +124,7 @@ nav ul li{
 .content p:nth-child(4){
   font-size: 12px;
 }
+/* /header bottom */
 
 .space{
   height: 50px;
@@ -132,6 +139,7 @@ main{
   height: 100vh;
 }
 
+/* prima section */
 .description{
   width: 50%;
   margin: auto;
@@ -147,7 +155,9 @@ main{
 .description p{
   padding: 20px 0 40px;
 }
+/* /prima section */
 
+/* seconda section */
 .feature{
   width: 60%;
   margin: auto;
@@ -215,3 +225,4 @@ hr{
 .popular ul > li > i{
   color: orange;
 }
+/* /seconda section */
