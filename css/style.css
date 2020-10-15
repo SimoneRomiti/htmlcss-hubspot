@@ -119,11 +119,74 @@ nav ul li{
   font-size: 12px;
 }
 
-
-
 .space{
   height: 50px;
   border-top: 2px solid #33475B;
   border-bottom: 2px solid #33475B;
   background: #56e1e6;
+}
+
+main{
+  background-color: #e6f3ff;
+  color: #33475B;
+  height: 100vh;
+}
+
+.description{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.description img{
+  width: 20%;
+  padding-top: 20px;
+}
+
+.description p{
+  padding: 20px 0 40px;
+}
+
+.feature{
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.feature::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.img-button{
+  width: 20%;
+  text-align: center;
+  margin-right: 10%;
+  float: left;
+}
+
+.img-button img{
+  width: 70%;
+}
+
+.img-button .button.free{
+  padding: 10px 20px;
+}
+
+.popular{
+  float: left;
+  width: 60%;
+}
+
+.popular p{
+  padding: 10px 0 20px;
+  font-size: 14px;
+}
+
+.popular h3{
+  font-size: 18px;
 }
