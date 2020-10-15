@@ -10,7 +10,7 @@ header{
 
 /* header top */
 .header-top{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #33475B;
   font-size: 0;
   width: 100%;
   background: white;
@@ -136,7 +136,6 @@ nav ul li{
 main{
   background-color: #e6f3ff;
   color: #33475B;
-  height: 100vh;
 }
 
 /* prima section */
@@ -226,3 +225,55 @@ hr{
   color: orange;
 }
 /* /seconda section */
+
+.hub{
+  width: 60%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.hub::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.hub .marketing, .hub .sales, .hub .service{
+  width: 30%;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  text-align: center;
+  float: left;
+}
+
+.hub .sales{
+  margin: 0 5%;
+}
+
+.marketing img{
+  width: 40%;
+}
+
+.marketing p{
+  padding: 15px 0 30px;
+  border-bottom: 1px solid #33475B;
+}
+
+.marketing h4{
+  padding: 25px 0 15px;
+}
+
+.marketing ul{
+  padding-bottom: 15px;
+}
+
+.marketing ul > li{
+  list-style: none;
+  text-align: left;
+}
+
+.marketing ul > li > i{
+  color: orange;
+  padding-right: 5px;
+}
