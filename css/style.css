@@ -19,7 +19,7 @@ header{
 }
 
 .container{
-  padding: 20px 100px;
+  padding: 10px 100px;
 }
 
 .header-top::after{
@@ -67,7 +67,7 @@ aside.right{
 
 /* header bottom */
 .header-bottom{
-  padding: 15vh 0 0 0;
+  padding: 12vh 0 0 0;
 }
 
 .navigator{
@@ -138,7 +138,7 @@ main{
   color: #33475B;
 }
 
-/* prima section */
+/* prima section (descrizione) */
 .description{
   width: 50%;
   margin: auto;
@@ -154,9 +154,9 @@ main{
 .description p{
   padding: 20px 0 40px;
 }
-/* /prima section */
+/* /prima section (descrizione) */
 
-/* seconda section */
+/* seconda section (box CRM) */
 .feature{
   width: 60%;
   margin: auto;
@@ -224,8 +224,9 @@ hr{
 .popular ul > li > i{
   color: orange;
 }
-/* /seconda section */
+/* /seconda section (box CRM) */
 
+/* terza section (3 colonne hub) */
 .hub{
   width: 60%;
   margin: auto;
@@ -251,29 +252,30 @@ hr{
   margin: 0 5%;
 }
 
-.marketing img{
+.marketing img, .sales img, .service img {
   width: 40%;
 }
 
-.marketing p{
+.marketing p, .sales p, .service p{
   padding: 15px 0 30px;
   border-bottom: 1px solid #33475B;
 }
 
-.marketing h4{
+.marketing h4, .sales h4, .service h4{
   padding: 25px 0 15px;
 }
 
-.marketing ul{
+.marketing ul, .sales ul, .service ul{
   padding-bottom: 15px;
 }
 
-.marketing ul > li{
+.marketing li, .sales li, .service li{
   list-style: none;
   text-align: left;
 }
 
-.marketing ul > li > i{
+.marketing li > i, .sales li > i, .service li > i{
   color: orange;
   padding-right: 5px;
 }
+/* /terza section (3 colonne hub) */
