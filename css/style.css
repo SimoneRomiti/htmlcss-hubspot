@@ -32,8 +32,9 @@
   border-right: 1px solid #33475B;
 }
 
+/* da rivedere accentramento english con pulsanti */
 .language{
-  padding: 0 0 0 10px;
+  padding: 10px 0 0 10px;
   margin-top: 10px;
   font-size: 14px;
   text-align: center;
@@ -54,7 +55,7 @@ aside.right{
 }
 
 .button{
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #fe7b5c;
   border-radius: 5px;
   color: #fe7b5c;
@@ -65,6 +66,7 @@ aside.right{
 
 .button.login{
   margin-right: 10px;
+  background: white;
 }
 
 .button.free{
@@ -294,7 +296,7 @@ hr{
 }
 /* /terza section (3 colonne hub) */
 
-/* quarta section (azzurra) */
+/* quarta section (box azzurro) */
 .azzurra{
   width: 100%;
   color: white;
@@ -302,8 +304,7 @@ hr{
 }
 
 .data{
-  padding: 30px 0 60px;
-
+  padding: 30px 0 0 0;
 }
 
 .data h3{
@@ -346,3 +347,77 @@ hr{
   vertical-align: top;
   line-height: 32px;
 }
+/* /quarta section (box azzurro) */
+
+/* quinta section (reference) */
+.reference{
+  height: 100vh;
+  background: white;
+  padding-top: 60px;
+}
+
+.alternative-container{
+  width: 70%;
+  margin: auto;
+}
+
+.alternative-container::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.num-customers{
+  width: 15%;
+  font-size: 14px;
+  float: left;
+}
+
+.num-customers h2{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.logo-customers{
+  width: 60%;
+  float: right;
+  font-size: 0;
+}
+
+.logo-customers img{
+  width: calc(100% / 4 - 20px);
+  margin: 0 10px 10px 10px;
+  vertical-align: middle;
+}
+
+.box::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.free-tools{
+  width: 40%;
+  padding-top: 100px;
+  float: left;
+}
+.free-tools h2{
+  font-size: 32px;
+}
+.free-tools p{
+  margin: 30px 0 20px 0;
+}
+.free-tools p:nth-of-type(2){
+  font-size: 12px;
+}
+
+.img-woman{
+  width: 25%;
+  padding-top: 50px;
+  float: right;
+}
+
+.img-woman img{
+  width: 100%;
+}
+/* /quinta section (reference) */
