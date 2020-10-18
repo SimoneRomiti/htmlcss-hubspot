@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* header top */
@@ -114,14 +115,14 @@ nav > ul > li > a > i{
 .background{
   background-image: url('../img/jumbotron.png');
   background-size: cover;
-  background-position: center;
+  background-position: right;
   position: relative;
   z-index: 1;
 }
 
 .background::after{
   content: '';
-  height: 75px;
+  height: 80px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -303,7 +304,7 @@ hr{
 }
 
 .data{
-  padding: 30px 0 0 0;
+  padding: 40px 0;
 }
 
 .data h3{
@@ -322,18 +323,30 @@ hr{
 }
 
 .data .info{
-  padding: 20px 50px 20px 50px;
   text-align: center;
   width: calc(100% / 4);
+  height: 150px;
   border-right: 1px solid white;
+  position: relative;
   float: left;
 }
 .data .info.first-row{
-  margin-top: 50px;
+  margin-top: 40px;
   border-bottom: 1px solid white;
 }
 .data .info:nth-of-type(4n+4){
-  border-right: 0;
+  border-right: 1px solid transparent;
+}
+
+.position{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.position img.different{
+  height: 33px;
 }
 
 .data .number{
@@ -346,11 +359,13 @@ hr{
   vertical-align: top;
   line-height: 32px;
 }
+.data .text{
+  font-size: 14px;
+}
 /* /quarta section (box azzurro) */
 
 /* quinta section (reference) */
 .reference{
-  height: 100vh;
   background: white;
   padding-top: 60px;
 }
@@ -367,8 +382,8 @@ hr{
 }
 
 .num-customers{
-  width: 15%;
-  font-size: 14px;
+  width: 30%;
+  font-size: 18px;
   float: left;
 }
 
@@ -420,3 +435,71 @@ hr{
   width: 100%;
 }
 /* /quinta section (reference) */
+
+/* footer */
+footer{
+  padding: 25px 0;
+  font-size: 12px;
+  color: white;
+  background: #2D3E50;
+}
+
+.container::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.column{
+  float: left;
+  width: calc(100% / 4 - 80px);
+  margin-right: 80px;
+  margin-bottom: 60px;
+}
+
+
+footer h3{
+  padding-bottom: 25px;
+}
+
+footer ul li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+footer ul{
+  margin-bottom: 10px;
+}
+
+.column > a{
+  text-decoration: none;
+  color: #2D3E50;
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.social{
+  margin-top: 25px;
+}
+
+.social a{
+  text-decoration: none;
+  color: white;
+}
+
+.social i{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.version{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.version span{
+  display: inline-block;
+  margin-right: 20px;
+}
