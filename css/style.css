@@ -45,10 +45,9 @@
   color: #33475B;
 }
 
-a:hover, .column a:hover, .social a:hover{
+a:hover, .column a:hover, .social a:hover, .legal-privacy a:hover, .version a:hover{
   color: #7FD1C3;
 }
-
 
 aside.left{
   float: left;
@@ -520,9 +519,10 @@ footer ul{
   border-bottom: 1px solid white;
 }
 
-.version span{
+.version a{
   display: inline-block;
   margin-right: 20px;
+  color: white;
 }
 
 .copyright{
