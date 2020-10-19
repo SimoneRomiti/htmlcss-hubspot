@@ -242,6 +242,7 @@ hr{
   width: 55%;
 }
 
+/* check marker senza font-awesome ma con background e before */
 .popular li::before, .hub li::before{
   content: '';
   display: inline-block;
@@ -251,6 +252,7 @@ hr{
   vertical-align: top;
   margin-right: 10px;
 }
+/* check marker senza font-awesome ma con background e before */
 .popular ul > li{
   font-size: 14px;
   list-style: none;
