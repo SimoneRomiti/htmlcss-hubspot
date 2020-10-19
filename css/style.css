@@ -242,6 +242,15 @@ hr{
   width: 55%;
 }
 
+.popular li::before, .hub li::before{
+  content: '';
+  display: inline-block;
+  background-image: url('../img/Orange_Checkmark.svg');
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  margin-right: 10px;
+}
 .popular ul > li{
   font-size: 14px;
   list-style: none;
