@@ -503,3 +503,29 @@ footer ul{
   display: inline-block;
   margin-right: 20px;
 }
+
+.copyright{
+  padding-top: 25px;
+  float: left;
+}
+
+.copyright img{
+  /* display: block; */
+  /* margin-bottom: 15px; */
+  height: 30px;
+}
+
+.legal-privacy{
+  float: right;
+  padding-top: 25px;
+}
+
+.legal-privacy a{
+  color: white;
+  vertical-align: top;
+  line-height: 30px;
+}
+
+.legal-privacy a:first-child{
+  margin-right: 25px;
+}
