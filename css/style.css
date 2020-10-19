@@ -451,6 +451,41 @@ hr{
 }
 /* /quinta section (reference) */
 
+/* box per chat */
+.message{
+  width: 23%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3;
+}
+.chat{
+  background-color: #e9f0f6;
+  padding: 30px 15px 15px 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  line-height: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.bot{
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bot img{
+  width: 60px;
+}
+.message i{
+  font-size: 50px;
+  padding: 10px;
+  background-color: #425B76;
+  color: white;
+  border-radius: 50%;
+  float: right;
+}
+/* /box per chat */
+
 /* footer */
 footer{
   padding: 25px 0;
