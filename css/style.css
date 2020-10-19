@@ -47,6 +47,7 @@
 
 a:hover, .column a:hover, .social a:hover, .legal-privacy a:hover, .version a:hover{
   color: #7FD1C3;
+  text-decoration: underline;
 }
 
 aside.left{
@@ -75,11 +76,13 @@ aside.right{
 .button.login:hover{
   color: #FFBCAC;
   border: 1px solid #FFBCAC;
+  text-decoration: none;
 }
 
 .button.free{
   background-color: #fe7b5c;
   color: white;
+  text-decoration: none;
 }
 
 .button.free:hover{
@@ -164,7 +167,6 @@ nav > ul > li > a > i{
 }
 /* /header bottom */
 
-
 main{
   background-color: #e6f3ff;
   color: #33475B;
@@ -175,7 +177,6 @@ main{
   width: 60%;
   margin: auto;
   text-align: center;
-
 }
 
 .description img{
@@ -287,25 +288,25 @@ hr{
   width: 50%;
 }
 
-.marketing p, .sales p, .service p{
+.hub p{
   padding: 15px 0 30px;
   border-bottom: 1px solid #33475B;
 }
 
-.marketing h4, .sales h4, .service h4{
+.hub h4{
   padding: 25px 0 15px;
 }
 
-.marketing ul, .sales ul, .service ul{
+.hub ul{
   padding-bottom: 15px;
 }
 
-.marketing li, .sales li, .service li{
+.hub ul > li{
   list-style: none;
   text-align: left;
 }
 
-.marketing li > i, .sales li > i, .service li > i{
+.hub ul > li > i{
   padding-right: 5px;
 }
 /* /terza section (3 colonne hub) */
@@ -480,10 +481,6 @@ footer ul li{
   padding-bottom: 20px;
 }
 
-footer ul{
-  margin-bottom: 10px;
-}
-
 .column a{
   color: white;
 }
@@ -501,15 +498,13 @@ footer ul{
 .column > .support:hover{
   background-color: #7FD1C3;
   color: #2D3E50;
+  text-decoration: none;
 }
 
 .social a{
-  text-decoration: none;
-  color: white;
+    margin-right: 20px;
 }
-
 .social i{
-  margin-right: 20px;
   font-size: 16px;
 }
 
@@ -550,3 +545,4 @@ footer ul{
 .legal-privacy a:first-child{
   margin-right: 25px;
 }
+/* /footer */
