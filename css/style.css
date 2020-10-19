@@ -33,9 +33,8 @@
   border-right: 1px solid #33475B;
 }
 
-/* da rivedere accentramento english con pulsanti */
-.language{
-  padding: 15px 0 15px 10px;
+.header-top .language{
+  padding: 10px 0 10px 10px;
   font-size: 14px;
   text-align: center;
   display: inline-block;
@@ -46,6 +45,11 @@
   color: #33475B;
 }
 
+a:hover, .column a:hover, .social a:hover{
+  color: #7FD1C3;
+}
+
+
 aside.left{
   float: left;
 }
@@ -55,7 +59,7 @@ aside.right{
 }
 
 .button{
-  padding: 15px;
+  padding: 10px;
   border: 1px solid #fe7b5c;
   border-radius: 5px;
   color: #fe7b5c;
@@ -69,8 +73,19 @@ aside.right{
   background: white;
 }
 
+.button.login:hover{
+  color: #FFBCAC;
+  border: 1px solid #FFBCAC;
+}
+
 .button.free{
   background-color: #fe7b5c;
+  color: white;
+}
+
+.button.free:hover{
+  background-color: #FFBCAC;
+  border: 1px solid #FFBCAC;
   color: white;
 }
 /* /header top */
@@ -457,7 +472,6 @@ footer{
   margin-bottom: 60px;
 }
 
-
 footer h3{
   padding-bottom: 25px;
 }
@@ -471,16 +485,23 @@ footer ul{
   margin-bottom: 10px;
 }
 
-.column > a{
+.column a{
+  color: white;
+}
+
+.column > .support{
   text-decoration: none;
   color: #2D3E50;
   background-color: white;
-  padding: 10px 5px;
+  display: inline-block;
   border-radius: 5px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
 }
 
-.social{
-  margin-top: 25px;
+.column > .support:hover{
+  background-color: #7FD1C3;
+  color: #2D3E50;
 }
 
 .social a{
@@ -510,8 +531,8 @@ footer ul{
 }
 
 .copyright img{
-  /* display: block; */
-  /* margin-bottom: 15px; */
+  display: block;
+  margin-bottom: 5px;
   height: 30px;
 }
 
